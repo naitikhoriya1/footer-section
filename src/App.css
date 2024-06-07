@@ -1,1 +1,40 @@
- 
+* {
+  margin: 0;
+}
+
+.navbar {
+  padding: 35px 0;
+  font-size: large;
+  font-family: Arial, sans-serif;
+  line-height: 42px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.848);
+  color: white;
+  width: 100%;
+}
+
+.right {
+  text-align: start;
+}
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.733);
+  color: white;
+}
+.icons {
+  display: flex;
+  padding-right: 25px;
+}
+.pera {
+  font-weight: lighter;
+  font-size: smaller;
+}
+/* .first {
+  padding-left: 40px;
+} */
